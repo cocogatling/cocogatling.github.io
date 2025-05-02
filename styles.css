@@ -1,17 +1,22 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
     font-size: 5vw;  /* Scales text based on screen width (good for mobile) */
-    text-align: center;
     background-color: #323339;
     color: #fff;
 }
 
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5vw;  /* Scales text based on screen width (good for mobile) */
+    text-align: center;
+}
+
 hr {
     width: 500px;
+}
+
+p {
+    margin-left: 20px;
 }
 
 button {
@@ -22,14 +27,14 @@ margin: 4vw;
 
 /* Media query for desktop */
 @media (min-width: 1000px) {
-  body {
-    font-size: 14px; 
-    padding: 20px;
+    body {
+      font-size: 14px; 
+      padding: 20px;
+    }
+  
+    button {
+      font-size: 14px;  
+      padding: 10px 20px;
+      margin: 10px;
+    }
   }
-
-  button {
-    font-size: 14px;  
-    padding: 10px 20px;
-    margin: 10px;
-  }
-}
